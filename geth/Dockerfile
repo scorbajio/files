@@ -1,4 +1,4 @@
-FROM docker/dev-environments-go
+FROM golang:1.19-bullseye
 
 RUN apt-get update -y \
     && apt-get upgrade -y \
